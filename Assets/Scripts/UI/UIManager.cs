@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
 
     public void QuitGame()
     {
+        // Untuk Keluar dari game
         Debug.Log("Tombol quit ke klik");
         #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
